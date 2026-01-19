@@ -25,4 +25,28 @@
         Medical Clearance:
         <select id="medical">
             <option value="no">No</option>
-            <option valu
+            <option value="yes">Yes</option>
+        </select>
+    </label>
+    <br><br>
+
+    <label>
+        Grade Level:
+        <input type="number" id="grade">
+    </label>
+    <br><br>
+
+    <label>
+        Section:
+        <input type="text" id="section">
+    </label>
+    <br><br>
+
+    <button py-click="check_eligibility()">Check Eligibility</button>
+
+    <h3 id="result"></h3>
+
+    <py-script src="main.py"></py-script>
+
+</body>
+</html>
